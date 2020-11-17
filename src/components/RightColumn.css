@@ -1,0 +1,14 @@
+.rightColumn {
+  background-color: white;
+  width: 95%;
+  margin-top: 15px;
+  border-radius: 4px;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 845px) {
+  .rightColumn {
+    width: 60%;
+    max-width: 720px;
+  }
+}

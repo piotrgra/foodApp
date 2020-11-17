@@ -1,0 +1,169 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.checkout__buy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  bottom: 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-top: 10px 0;
+  box-shadow: 0 -10px 30px rgba(49, 57, 70, 0.25);
+}
+
+.checkout__card {
+  background-color: white;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  padding: 5px 5px;
+}
+
+.checkout__orderTitle {
+  font-size: 0.9rem;
+  padding: 10px;
+  color: #3d74a6;
+  text-transform: uppercase;
+  border-bottom: 1px solid#e9f1f8;
+}
+
+.checkout__delivery {
+  text-align: center;
+  border-bottom: 1px solid #e9f1f8;
+  padding-bottom: 20px;
+}
+.checkout__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 10px 0px 26px;
+}
+
+.checkout__button {
+  padding: 10px 20px;
+  border: 1px solid #d5e3ef;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.checkout__button--active {
+  color: white;
+  background: #3d74a6;
+}
+
+.checkout__address {
+  text-align: center;
+  border-bottom: 1px solid #e9f1f8;
+}
+.checkout__addressForm {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+}
+
+input,
+textarea {
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  border: 1px solid #d5e3ef;
+  margin-bottom: 10px;
+}
+
+.checkout__payment {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e9f1f8;
+}
+
+.checkout__paymentCode {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e9f1f8;
+}
+
+.checkout__paymentCode > input {
+  width: 60%;
+}
+
+.checkout__summary {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 10px;
+  align-items: center;
+}
+
+.checkout__summaryFood,
+.checkout__summaryAll {
+  display: flex;
+  align-items: center;
+}
+
+.checkout__summaryFoodIcon,
+.checkout__summaryAllIcon {
+  display: none;
+}
+
+.checkout__gotoMenuLink {
+  text-decoration: none;
+}
+
+.checkout__goToMenu {
+  display: flex;
+  font-size: 0.9em;
+  align-items: center;
+  border: 2px solid #d5e3ef;
+  border-radius: 4px;
+  padding: 5px 9px;
+  color: #111;
+}
+
+.checkout__goToMenu:hover,
+.checkout__goToMenu:focus {
+  color: white;
+  background-color: #3d74a6;
+}
+
+.checkout__buyButton {
+  display: flex;
+  font-size: 0.9em;
+  align-items: center;
+  border: 2px solid #d5e3ef;
+  border-radius: 4px;
+  padding: 5px 9px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.checkout__buyButtonText {
+  padding-left: 10px;
+}
+
+.checkout__buyButton:hover {
+  background-color: #006600;
+}
+
+@media (min-width: 675px) {
+  .checkout__card {
+    max-width: 700px;
+  }
+  .checkout__summaryFoodIcon,
+  .checkout__summaryAllIcon {
+    display: inline;
+  }
+}

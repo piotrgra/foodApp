@@ -1,0 +1,17 @@
+.menu {
+  margin-top: 15px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.menu__title {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 20px;
+  color: #3d74a6;
+  border-bottom: 1px solid #e9f1f8;
+}
+.menu__titleHashLink {
+  text-decoration: none;
+  color: #3d74a6;
+}

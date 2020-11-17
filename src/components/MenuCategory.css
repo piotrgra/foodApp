@@ -1,0 +1,20 @@
+.menuCategory {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.menuCategory__count {
+  opacity: 0.4;
+  font-size: 0.8rem;
+}
+
+.menuCategory:hover,
+.menuCategory:focus {
+  cursor: pointer;
+  color: #495057;
+  background-color: #f5f5f5;
+}

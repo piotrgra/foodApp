@@ -1,0 +1,15 @@
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin-top: 20px;
+}
+
+@media (min-width: 845px) {
+  .leftColumn {
+    width: 25%;
+    margin-top: 0px;
+    padding: 15px;
+    max-width: 320px;
+  }
+}

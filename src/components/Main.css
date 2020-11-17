@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+@media (min-width: 845px) {
+  .main {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 20px;
+  }
+}
